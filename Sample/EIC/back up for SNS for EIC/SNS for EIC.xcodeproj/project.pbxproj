@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9784CEB1C2C31A300113643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784CEA1C2C31A300113643 /* AppDelegate.swift */; };
+		B9784CED1C2C31A300113643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784CEC1C2C31A300113643 /* ViewController.swift */; };
+		B9784CF01C2C31A300113643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9784CEE1C2C31A300113643 /* Main.storyboard */; };
+		B9784CF21C2C31A300113643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9784CF11C2C31A300113643 /* Assets.xcassets */; };
+		B9784CF51C2C31A300113643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9784CF31C2C31A300113643 /* LaunchScreen.storyboard */; };
+		B9784D001C2C31A300113643 /* SNS_for_EICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784CFF1C2C31A300113643 /* SNS_for_EICTests.swift */; };
+		B9784D0B1C2C31A300113643 /* SNS_for_EICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784D0A1C2C31A300113643 /* SNS_for_EICUITests.swift */; };
+		B9784D191C2C31F200113643 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784D181C2C31F200113643 /* MemoViewController.swift */; };
+		B9784D1B1C2C326600113643 /* EIC 2015 PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = B9784D1A1C2C326600113643 /* EIC 2015 PNG.png */; };
+		B9784D1F1C2C351C00113643 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784D1E1C2C351C00113643 /* NewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9784CFC1C2C31A300113643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9784CDF1C2C31A300113643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9784CE61C2C31A300113643;
+			remoteInfo = "SNS for EIC";
+		};
+		B9784D071C2C31A300113643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9784CDF1C2C31A300113643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9784CE61C2C31A300113643;
+			remoteInfo = "SNS for EIC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9784CE71C2C31A300113643 /* SNS for EIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNS for EIC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9784CEA1C2C31A300113643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9784CEC1C2C31A300113643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9784CEF1C2C31A300113643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9784CF11C2C31A300113643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9784CF41C2C31A300113643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9784CF61C2C31A300113643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9784CFB1C2C31A300113643 /* SNS for EICTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNS for EICTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9784CFF1C2C31A300113643 /* SNS_for_EICTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNS_for_EICTests.swift; sourceTree = "<group>"; };
+		B9784D011C2C31A300113643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9784D061C2C31A300113643 /* SNS for EICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNS for EICUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9784D0A1C2C31A300113643 /* SNS_for_EICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNS_for_EICUITests.swift; sourceTree = "<group>"; };
+		B9784D0C1C2C31A300113643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9784D181C2C31F200113643 /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		B9784D1A1C2C326600113643 /* EIC 2015 PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "EIC 2015 PNG.png"; path = "../../EIC 2015 PNG.png"; sourceTree = "<group>"; };
+		B9784D1E1C2C351C00113643 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9784CE41C2C31A300113643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9784CF81C2C31A300113643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9784D031C2C31A300113643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9784CDE1C2C31A300113643 = {
+			isa = PBXGroup;
+			children = (
+				B9784CE91C2C31A300113643 /* SNS for EIC */,
+				B9784CFE1C2C31A300113643 /* SNS for EICTests */,
+				B9784D091C2C31A300113643 /* SNS for EICUITests */,
+				B9784CE81C2C31A300113643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9784CE81C2C31A300113643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9784CE71C2C31A300113643 /* SNS for EIC.app */,
+				B9784CFB1C2C31A300113643 /* SNS for EICTests.xctest */,
+				B9784D061C2C31A300113643 /* SNS for EICUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9784CE91C2C31A300113643 /* SNS for EIC */ = {
+			isa = PBXGroup;
+			children = (
+				B9784D1A1C2C326600113643 /* EIC 2015 PNG.png */,
+				B9784CEA1C2C31A300113643 /* AppDelegate.swift */,
+				B9784CEC1C2C31A300113643 /* ViewController.swift */,
+				B9784CEE1C2C31A300113643 /* Main.storyboard */,
+				B9784CF11C2C31A300113643 /* Assets.xcassets */,
+				B9784CF31C2C31A300113643 /* LaunchScreen.storyboard */,
+				B9784CF61C2C31A300113643 /* Info.plist */,
+				B9784D181C2C31F200113643 /* MemoViewController.swift */,
+				B9784D1E1C2C351C00113643 /* NewViewController.swift */,
+			);
+			path = "SNS for EIC";
+			sourceTree = "<group>";
+		};
+		B9784CFE1C2C31A300113643 /* SNS for EICTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9784CFF1C2C31A300113643 /* SNS_for_EICTests.swift */,
+				B9784D011C2C31A300113643 /* Info.plist */,
+			);
+			path = "SNS for EICTests";
+			sourceTree = "<group>";
+		};
+		B9784D091C2C31A300113643 /* SNS for EICUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9784D0A1C2C31A300113643 /* SNS_for_EICUITests.swift */,
+				B9784D0C1C2C31A300113643 /* Info.plist */,
+			);
+			path = "SNS for EICUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9784CE61C2C31A300113643 /* SNS for EIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9784D0F1C2C31A300113643 /* Build configuration list for PBXNativeTarget "SNS for EIC" */;
+			buildPhases = (
+				B9784CE31C2C31A300113643 /* Sources */,
+				B9784CE41C2C31A300113643 /* Frameworks */,
+				B9784CE51C2C31A300113643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNS for EIC";
+			productName = "SNS for EIC";
+			productReference = B9784CE71C2C31A300113643 /* SNS for EIC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9784CFA1C2C31A300113643 /* SNS for EICTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9784D121C2C31A300113643 /* Build configuration list for PBXNativeTarget "SNS for EICTests" */;
+			buildPhases = (
+				B9784CF71C2C31A300113643 /* Sources */,
+				B9784CF81C2C31A300113643 /* Frameworks */,
+				B9784CF91C2C31A300113643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9784CFD1C2C31A300113643 /* PBXTargetDependency */,
+			);
+			name = "SNS for EICTests";
+			productName = "SNS for EICTests";
+			productReference = B9784CFB1C2C31A300113643 /* SNS for EICTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9784D051C2C31A300113643 /* SNS for EICUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9784D151C2C31A300113643 /* Build configuration list for PBXNativeTarget "SNS for EICUITests" */;
+			buildPhases = (
+				B9784D021C2C31A300113643 /* Sources */,
+				B9784D031C2C31A300113643 /* Frameworks */,
+				B9784D041C2C31A300113643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9784D081C2C31A300113643 /* PBXTargetDependency */,
+			);
+			name = "SNS for EICUITests";
+			productName = "SNS for EICUITests";
+			productReference = B9784D061C2C31A300113643 /* SNS for EICUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9784CDF1C2C31A300113643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sena.org;
+				TargetAttributes = {
+					B9784CE61C2C31A300113643 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B9784CFA1C2C31A300113643 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9784CE61C2C31A300113643;
+					};
+					B9784D051C2C31A300113643 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9784CE61C2C31A300113643;
+					};
+				};
+			};
+			buildConfigurationList = B9784CE21C2C31A300113643 /* Build configuration list for PBXProject "SNS for EIC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9784CDE1C2C31A300113643;
+			productRefGroup = B9784CE81C2C31A300113643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9784CE61C2C31A300113643 /* SNS for EIC */,
+				B9784CFA1C2C31A300113643 /* SNS for EICTests */,
+				B9784D051C2C31A300113643 /* SNS for EICUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9784CE51C2C31A300113643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9784CF51C2C31A300113643 /* LaunchScreen.storyboard in Resources */,
+				B9784D1B1C2C326600113643 /* EIC 2015 PNG.png in Resources */,
+				B9784CF21C2C31A300113643 /* Assets.xcassets in Resources */,
+				B9784CF01C2C31A300113643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9784CF91C2C31A300113643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9784D041C2C31A300113643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9784CE31C2C31A300113643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9784CED1C2C31A300113643 /* ViewController.swift in Sources */,
+				B9784CEB1C2C31A300113643 /* AppDelegate.swift in Sources */,
+				B9784D191C2C31F200113643 /* MemoViewController.swift in Sources */,
+				B9784D1F1C2C351C00113643 /* NewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9784CF71C2C31A300113643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9784D001C2C31A300113643 /* SNS_for_EICTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9784D021C2C31A300113643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9784D0B1C2C31A300113643 /* SNS_for_EICUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9784CFD1C2C31A300113643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9784CE61C2C31A300113643 /* SNS for EIC */;
+			targetProxy = B9784CFC1C2C31A300113643 /* PBXContainerItemProxy */;
+		};
+		B9784D081C2C31A300113643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9784CE61C2C31A300113643 /* SNS for EIC */;
+			targetProxy = B9784D071C2C31A300113643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9784CEE1C2C31A300113643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9784CEF1C2C31A300113643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9784CF31C2C31A300113643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9784CF41C2C31A300113643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9784D0D1C2C31A300113643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9784D0E1C2C31A300113643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9784D101C2C31A300113643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SNS for EIC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.SNS-for-EIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9784D111C2C31A300113643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SNS for EIC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.SNS-for-EIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9784D131C2C31A300113643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SNS for EICTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.SNS-for-EICTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNS for EIC.app/SNS for EIC";
+			};
+			name = Debug;
+		};
+		B9784D141C2C31A300113643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SNS for EICTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.SNS-for-EICTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNS for EIC.app/SNS for EIC";
+			};
+			name = Release;
+		};
+		B9784D161C2C31A300113643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SNS for EICUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.SNS-for-EICUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SNS for EIC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9784D171C2C31A300113643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SNS for EICUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.SNS-for-EICUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SNS for EIC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9784CE21C2C31A300113643 /* Build configuration list for PBXProject "SNS for EIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9784D0D1C2C31A300113643 /* Debug */,
+				B9784D0E1C2C31A300113643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9784D0F1C2C31A300113643 /* Build configuration list for PBXNativeTarget "SNS for EIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9784D101C2C31A300113643 /* Debug */,
+				B9784D111C2C31A300113643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9784D121C2C31A300113643 /* Build configuration list for PBXNativeTarget "SNS for EICTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9784D131C2C31A300113643 /* Debug */,
+				B9784D141C2C31A300113643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9784D151C2C31A300113643 /* Build configuration list for PBXNativeTarget "SNS for EICUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9784D161C2C31A300113643 /* Debug */,
+				B9784D171C2C31A300113643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9784CDF1C2C31A300113643 /* Project object */;
+}
